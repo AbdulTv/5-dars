@@ -1,0 +1,31 @@
+body {
+    background-color: blue;
+}
+
+.father {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: yellow;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px;
+    justify-content: center;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.box2 {
+    background-color: red;
+    width: 133px;
+    height: 78px;
+    text-align: center;
+}
